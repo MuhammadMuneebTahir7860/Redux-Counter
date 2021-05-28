@@ -1,0 +1,68 @@
+.counterDiv{
+    width: 60%;
+    height:300px;
+    background: linear-gradient(to right, #fdc830, #f37335);
+    margin: auto;
+    box-shadow: 11px 12px 82px 3px rgba(13,7,0,0.48);
+}
+@media only screen and (max-width: 768px) {
+   .counterDiv{
+       width: 80%;
+   }
+   .incButton{
+    position: absolute;
+    right: 5% !important;
+}
+.decButton{
+    position: absolute;
+    left: 5% !important;
+}
+  }
+
+.zeroSection{
+    text-align: center;
+    color: white;
+    font-size: 200px;
+}
+.decButton button{
+    background-color: white;
+    border: none;
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;
+}
+.incButton button{
+    background-color: white;
+    border: none;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;
+}
+.decButton{
+    position: absolute;
+    top: 320px;
+    left: 18%;
+}
+.incButton{
+    position: absolute;
+    top: 320px;
+    right: 18%;
+}
+.resetButton{
+    text-align: center;
+    margin-top: 30px;
+}
+.resetButton button{
+    background: linear-gradient(to right, #00f260, #0575e6);
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
